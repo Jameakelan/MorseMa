@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/success"
+        android:layout_width="wrap_content"
+        android:layout_height="159dp"
+
+        android:paddingTop="20dp"
+        android:src="@drawable/fireworks" />
+
+    <TextView
+        android:id="@+id/successText"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:fontFamily="@font/sut_font"
+        android:labelFor="@+id/imageHappy"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="55dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

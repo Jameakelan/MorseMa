@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".thaiOption"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#EC3F68"
+            android:orientation="horizontal"
+            android:layout_gravity="center|center_vertical"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/right_arrow"
+                android:padding="20dp"
+                android:onClick="backToHomeThai"/>
+
+            <TextView
+                android:id="@+id/textThaiOpHeader"
+                android:layout_width="235dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/sut_font"
+                android:text="@string/translateHeader"
+                android:textColor="#FFFFFF"
+                android:textSize="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/flashlight"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/play_button"
+                android:drawableBottom="@drawable/flashlight" />
+            <Button
+                android:id="@+id/playBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/play_button"
+                android:drawableBottom="@drawable/copy" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/morseView"
+            android:layout_width="338dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+
+            android:background="@drawable/text_view_border"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/editTextMorse"
+            android:layout_width="338dp"
+            android:layout_height="127dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/text_view_border"
+            android:gravity="top"
+            android:hint="ใส่ข้อความที่นี่"
+            android:padding="15dp" />
+        <Button
+            android:id="@+id/translateBtn"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/button_pink"
+            android:fontFamily="@font/sut_font"
+            android:gravity="center|center_vertical"
+            android:text="@string/translate"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:onClick="translate"
+           />
+
+    </LinearLayout>
+</ScrollView>

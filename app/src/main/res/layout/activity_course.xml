@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".thaiOption"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#EC3F68"
+            android:orientation="horizontal"
+            android:layout_gravity="center|center_vertical"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/right_arrow"
+                android:padding="20dp"
+                android:onClick="backToCourse"/>
+
+            <TextView
+                android:id="@+id/courseHeader"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/sut_font"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="50dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewArrayAlpha"
+            android:layout_marginTop="50dp"
+            android:layout_width="320dp"
+            android:layout_height="197dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="90dp"
+            android:text=""
+            android:fontFamily="@font/sut_font"
+            android:background="@drawable/thai_course_menu_pink"/>
+
+        <TextView
+            android:id="@+id/textViewArrayMorse"
+            android:layout_width="320dp"
+            android:layout_height="111dp"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="100dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewArrayMorseWrite"
+            android:layout_width="320dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/pink"
+            android:textSize="80dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/dotBtn"
+                android:layout_width="160dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:onClick="dotClick"
+                android:background="@drawable/dot"/>
+
+            <Button
+                android:id="@+id/dashBtn"
+                android:layout_marginLeft="5dp"
+                android:layout_width="160dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:onClick="dashClick"
+                android:background="@drawable/dash"/>/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

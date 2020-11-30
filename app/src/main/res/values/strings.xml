@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">MorseMa</string>
+    <string name="descriptApp1">เรียนรหัสมอร์สไทย</string>
+    <string name="descriptApp2">ได้ทุกที่ทุกเวลากับ morse ma</string>
+    <string name="letStart">เริ่มเรียน</string>
+    <string name="thaiCour">ไทย</string>
+    <string name="numberCour">ตัวเลข</string>
+    <string name="symbolCour">เครื่องหมาย</string>
+    <string name="translate">แปลง</string>
+    <string name="translateHeader">แปลงรหัสมอร์ส</string>
+    <string name="morseCour">เรื่องราว</string>
+    <string name="thaiOptionHeader">หมวดหมู่</string>
+    <string name="morseHistory">จุดกำเนิดรหัสมอร์ส</string>
+    <string name="alphabet">พยัญชนะ</string>
+    <string name="vowel">สระ</string>
+    <string name="toneMark">วรรณยุกค์</string>
+    <string name="thaisymbol">เครื่องหมาย</string>
+    <string name="thaiCourseHeader">บทเรียน</string>
+    <string name="course1">บทเรียนที่ 1</string>
+    <string name="course1_1">บทเรียนที่ 1.1</string>
+    <string name="course2">บทเรียนที่ 2</string>
+    <string name="course2_1">บทเรียนที่ 2.1</string>
+    <string name="course2_2">บทเรียนที่ 2.2</string>
+    <string name="course2_3">บทเรียนที่ 2.3</string>
+    <string name="course2_4">บทเรียนที่ 2.4</string>
+    <string name="course2_5">บทเรียนที่ 2.5</string>
+    <string name="course3">บทเรียนที่ 3</string>
+    <string name="course3_1">บทเรียนที่ 3.1</string>
+    <string name="course4">บทเรียนที่ 4</string>
+    <string name="course4_1">บทเรียนที่ 4.1</string>
+    <string name="course5">บทเรียนที่ 5</string>
+    <string name="course6">บทเรียนที่ 6</string>
+    <string name="course7">บทเรียนที่ 7</string>
+    <string name="correctAlert">ถูกต้อง</string>
+    <string name="incorrectAlert">ไม่ถูกต้อง</string>
+    <string name="congrats">แสดงความยินดีด้วย</string>
+    <string name="success">แสดงความยินดีด้วย</string>
+    <string name="finish">คุณจบ</string>
+    <string name="nextLessonBtn">บทเรียนถัดไป</string>
+    <string name="textHistory">
+        เริ่มต้นขึ้นในราวกลาง ค.ศ. 1830 โดย ซามูเอล เอฟ. บี. มอร์ส
+เป็นวิธีการส่งผ่านสารสนเทศข้อความเป็นชุดสัญญาณเสียง
+ไฟหรือเสียงเคาะเปิด-ปิด รหัสมอร์สระหว่างประเทศประกอบ
+ด้วยพยัญชนะละตินพื้นฐานของไอเอสโอ เครื่องหมายวรรคตอน
+ตัวอักษรละตินอื่น ๆ ตัวเลขอารบิก กระบวนคำสั่งเป็นลำดับ
+สัญญาณสั้นและยาวซึ่งจัดทำไว้เป็นมาตรฐาน เรียก "ดอต"
+และ "แดช" </string>
+</resources>
